@@ -5,11 +5,15 @@ function Testimonio (props) {
   return (
     <div className='contenedor-descripcion'>
       <img className="imagen-descripcion"
-      src={require('../imagenes/tigre.jpeg')} 
-      alt='Foto de tigre'/>
+      src={require(`../imagenes/${props.imagen}.jpeg`)} 
+      alt='Foto de tigre' />
       <div className='contenedor-de-la-desripcion'>
-        <p className='nombre-del-animal'>Tigre de bengala</p>
-        <p className='descripcion-de-tigre'>Los tigres son los miembros más grandes de la familia de los felinos y son famosos por su potencia y fuerza. En su momento hubo ocho subespecies de tigre, pero tres se extinguieron durante el siglo XX. En los últimos 100 años, la caza y la destrucción de los bosques han reducido la población de tigres de cientos de miles a quizá menos de 2500.</p>
+        <p className='nombre-del-animal'>
+          Es un <strong>{props.nombre}</strong>
+        </p>
+        <p className='descripcion-de-animal'>
+          {props.descripcion}
+        </p>
       </div>
     </div>
   );

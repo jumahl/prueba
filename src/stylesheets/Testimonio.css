@@ -1,6 +1,6 @@
 .contenedor-descripcion{
-    width: 1170px;
-    height: 368px;
+    width: 1100px;
+    height: 350px;
     margin: 10px 10px 50px;
     display: flex;
     align-items: center;
@@ -18,15 +18,17 @@
 .contenedor-de-la-descripcion{
     text-align: center;
     padding: 40px;
-    font-family: Lato, sans-serif;
-    font-weight: 400;
+    font-family: sans-serif;
+    font-weight: 10;
     line-height: 1.5rem;
 }
 .nombre-del-animal{
     font-size: 1.3rem;
 
 }
-.descripcion-de-trigre{
+.descripcion-de-animal{
     font-size: 1.1rem;
     text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
 }
